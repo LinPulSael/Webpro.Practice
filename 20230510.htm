@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> 날씨 맑음 </title>
+        <h2> 0510 이푸른새봄 웹프로그래밍 <hr> </h2>
+        <style>
+            h2 {background : lightgray;}
+
+            div { width:100px ; height: 100px; }
+            #b1 { background: red ; top: 30px; left : 30px; }
+            #b2 { background: black ; top: 60px; left : 60px; visibility:hidden;}
+            #b3 { background: blue ; top: 90px; left : 90px; }
+
+            #in { display : inline-block; padding : 0px 30px; 
+                visibility : hidden;}
+            #out { background : orange; width : 200px; padding: 10px 20px;}
+            #out:hover #in { visibility: visible; } 
+        </style>
+    </head>
+
+    <body>
+        <div id="b1">태</div>
+        <div id="b2">숨겨</div>
+        <div id="b3">극</div>
+        <hr>
+        
+        <fieldset>
+            <h3> 문제 : 이우진의 얼굴은 영어로? </h3>
+            <h3 id="out"> 답 : <span id="in"> Terrible </span> </h3> 
+        </fieldset>
+    </body>
+</html>

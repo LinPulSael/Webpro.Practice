@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title> 왜 아침부터 비가오냐</title>
+        <h2> 0522 이푸른새봄의 웹프로그래밍 <hr> </h2>
+         <hr>
+        
+
+        <style>
+            h2 {color:blue; background : lightgray;}
+            body {background:black; color : white;}
+        </style>
+    </head>
+
+    <body>
+        <h3> 불린형 boolean 논리 </h3>  <hr>
+        <fieldset>
+            <legned> 
+                 <script>
+                    var state, num1=0, num2=88;
+                    var str1=""; str2="Javascript";
+                    var obj1 = null;
+                    var obj2 = new Object();
+                    document.write(Boolean(num1) + '<br>');
+                    document.write(Boolean(num2) + '<br>');
+                    document.write(Boolean(str1) + '<br>');
+                    document.write(Boolean(str2) + '<br>');
+                    document.write(Boolean(obj1) + '<br>');
+                    document.write(Boolean(obj2) + '<br>');
+                    document.write(Boolean(state) + '<br>'); 
+                </script>
+            </legnend>
+        </fieldset>
+        <h3> 언디파인드 형 undefined 신문물 </h3> <hr> <hr><hr>
+        <fieldset>
+                <script>
+                    var obj = new Object();
+                    var num;
+                    document.write (obj + '<br>');
+                    document.write (num + '<br>');
+                    obj=null;
+                    document.write (obj + '<br>');
+                    obj=undefined ;
+                    document.write (obj + '<br>');
+                    document.write( (undefined == null ) + '<br>');
+                    document.write( (undefined === null)); 
+                </script>
+        </fieldset>
+    </body>
+        
+</html>
